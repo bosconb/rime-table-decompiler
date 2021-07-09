@@ -49,11 +49,11 @@
 反编译二进制词库并标准输出。
 
 ```Bash
-./rime-table-decompiler xxx.table.bin
+./rime_table_bin_decompiler xxx.table.bin
 ```
 
 反编译二进制词库并输出到纯文本词库文件中。
 
 ```Bash
-./rime-table-decompiler xxx.table.bin > xxx.dict.yaml
+./rime_table_bin_decompiler xxx.table.bin > xxx.dict.yaml
 ```
