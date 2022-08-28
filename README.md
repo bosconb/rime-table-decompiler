@@ -21,13 +21,6 @@
 
 [whjiang/rime_table_bin_decompiler]: https://github.com/whjiang/rime_table_bin_decompiler
 
-## 下载
-
-如果你懒的编译可以下载已编译好的程序 (支持 Linux、Windows)。
-
-+ [Github Releases]
-
-[Github Releases]: https://github.com/aj-ash/rime-table-decompiler/tree/master/releases
 
 ## 编译
 
@@ -49,11 +42,13 @@
 反编译二进制词库并标准输出。
 
 ```Bash
+cd ~/path/rime-table-decompiler/src/build
 ./rime_table_bin_decompiler xxx.table.bin
 ```
 
 反编译二进制词库并输出到纯文本词库文件中。
 
 ```Bash
+cd ~/path/rime-table-decompiler/src/build
 ./rime_table_bin_decompiler xxx.table.bin > xxx.dict.yaml
 ```
